@@ -10,7 +10,7 @@ namespace FixacaoConceitosBasicos1.Model
     {
         public static double Calcular(double salario, double aumento)
         {
-            double novoSal = salario + ((100 * aumento) / salario);
+            double novoSal = salario + (salario * aumento / 100);
             return novoSal;
         }
     }
